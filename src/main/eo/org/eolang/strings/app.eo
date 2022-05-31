@@ -1,0 +1,11 @@
++package strings
++alias strings.isempty
++alias org.eolang.io.stdout
++alias org.eolang.txt.sprintf
+
+[args...] > app
+  stdout > @
+    sprintf
+      "'%s' is %sempty\n"
+      "string" > x
+      if. (isempty x) "" "not "

@@ -1,0 +1,1 @@
+java -cp target/classes org.eolang.Main strings.app $@

@@ -1,0 +1,4 @@
++package strings 
+
+[x] > isempty
+  (x.eq "") > @
